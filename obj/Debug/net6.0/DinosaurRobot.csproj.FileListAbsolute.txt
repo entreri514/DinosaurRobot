@@ -1,0 +1,14 @@
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\bin\Debug\net6.0\DinosaurRobot.exe
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\bin\Debug\net6.0\DinosaurRobot.deps.json
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\bin\Debug\net6.0\DinosaurRobot.runtimeconfig.json
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\bin\Debug\net6.0\DinosaurRobot.dll
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\bin\Debug\net6.0\DinosaurRobot.pdb
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\obj\Debug\net6.0\DinosaurRobot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\obj\Debug\net6.0\DinosaurRobot.AssemblyInfoInputs.cache
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\obj\Debug\net6.0\DinosaurRobot.AssemblyInfo.cs
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\obj\Debug\net6.0\DinosaurRobot.csproj.CoreCompileInputs.cache
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\obj\Debug\net6.0\DinosaurRobot.dll
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\obj\Debug\net6.0\refint\DinosaurRobot.dll
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\obj\Debug\net6.0\DinosaurRobot.pdb
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\obj\Debug\net6.0\DinosaurRobot.genruntimeconfig.cache
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\obj\Debug\net6.0\ref\DinosaurRobot.dll
