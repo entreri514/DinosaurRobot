@@ -9,68 +9,76 @@ using System.Threading.Tasks;
 namespace DinosaurRobot
 {
     internal class Battlefield
-        
+
     {
+        public Dinosaur dinosaur;
+        public Robot robot;
 
-        bool AWinner = false;
-
-       
-        
-       
+        public Battlefield()
+        {
+            DisplayWelcome();
+            Console.WriteLine("Please enter the name of dinosaur: ");            
+            dinosaur = new Dinosaur(Console.ReadLine());
+            Console.WriteLine("Please enter the name of robot: ");
+            robot = new Robot(Console.ReadLine());
+        }
         public void DisplayWelcome()
         {
            Console.WriteLine("Welcome to Dinosaur vs Robot!");
         }
 
-        public void RunGame()
+        public void Battle()
         {
-
-            DisplayWelcome();
-
-            
-            Dinosaur dinoOne = new Dinosaur();
-            Robot roboOne = new Robot();
-            Weapon weapOne = new Weapon();
-            if (AWinner = false)
+            while (dinosaur.dinoHealth > 0 && robot.roboHealth > 0)
             {
-                Console.WriteLine(dinoOne.DinosaurName + " attacks " + roboOne.RobotName + " for " + dinoOne.DinosaurAttackPower + " points of damage.");
+                Console.WriteLine(dinosaur.dinosaurName + " attacks " + robot.robotName + " for " + dinosaur.dinoAttackPower + " points of damage.");
 
-                roboOne.RobotHealth = roboOne.RobotHealth - dinoOne.DinosaurAttackPower;
+                robot.roboHealth = robot.roboHealth - dinosaur.dinoAttackPower;
 
-                if (roboOne.RobotHealth < 1)
+                if (robot.roboHealth < 1)
                 {
-                    Console.WriteLine(roboOne.RobotName + " dies.");
-                    AWinner = true;
+                    Console.WriteLine(robot.robotName + " dies.");
+                }
+                if (robot.roboHealth > 0)
+                {
+                    Console.WriteLine(robot.robotName + " attacks " + dinosaur.dinosaurName + " with " + robot.activeWeapon.activeWeaponName + " for " + robot.activeWeapon.weaponAttackPower + " points of damage.");
+
+                    dinosaur.dinoHealth = dinosaur.dinoHealth - robot.activeWeapon.weaponAttackPower;
+                }
+                if (dinosaur.dinoHealth < 1)
+                {
+                    Console.WriteLine(dinosaur.dinosaurName + " dies.");
                 }
             }
-            if (AWinner=false)
-            {
-                Console.WriteLine(roboOne.RobotName + " attacks " + dinoOne.DinosaurName + " with "+weapOne.activeWeapon+" for "+weapOne.WeaponAttackPower+" points of damage.");
-
-                dinoOne.DinosaurHealth = dinoOne.DinosaurHealth - weapOne.WeaponAttackPower;
-
-                if (dinoOne.DinosaurHealth<1)
-                {
-                    Console.WriteLine(dinoOne.DinosaurName + " dies.");
-                }
-
-            }
-            if (AWinner = true)
-            {
-                if (roboOne.RobotHealth < 1) Console.WriteLine(dinoOne.DinosaurName + " Wins!");
-                if (dinoOne.DinosaurHealth < 1) Console.WriteLine(roboOne.RobotName + " Wins!");
-            }
-            
-            
-                
-
-
-
         }
 
-       
+        public void DisplayWinner()
+        {
+            if (robot.roboHealth < 1) Console.WriteLine(dinosaur.dinosaurName + " Wins!");
+            if (dinosaur.dinoHealth < 1) Console.WriteLine(robot.robotName + " Wins!");
+        }
+        public void RunGame()
+        {
+            Battle();
+            DisplayWinner();
+               
+
+
+
+
                 
-                
+
+
+
+
+
+
+
+
+
+
+
+        }        
 
        
     }

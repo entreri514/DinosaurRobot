@@ -8,16 +8,15 @@ namespace DinosaurRobot
 {
     internal class Dinosaur
     {
-        public string DinosaurName;
-        public int DinosaurHealth = 100;
-        public int DinosaurAttackPower = 12;
+        public string dinosaurName;
+        public int dinoHealth;
+        public int dinoAttackPower;
 
-        public Dinosaur()
+        public Dinosaur(string dinoName)
          {
-            string givenName;
-        Console.WriteLine("Please enter the name of the Dinosaur: ");
-            givenName = Console.ReadLine();
-            DinosaurName = givenName; 
+            dinoHealth = 100;
+            dinoAttackPower = 12;
+            dinosaurName = dinoName; 
          }
         
         

@@ -12,3 +12,4 @@ C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\obj\Debug\net6.0\refi
 C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\obj\Debug\net6.0\DinosaurRobot.pdb
 C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\obj\Debug\net6.0\DinosaurRobot.genruntimeconfig.cache
 C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\obj\Debug\net6.0\ref\DinosaurRobot.dll
+C:\Users\Dallas\Desktop\devCodeCamp\C# intro\DinosaurRobot\obj\Debug\net6.0\DinosaurRobot.sourcelink.json

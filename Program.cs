@@ -3,11 +3,9 @@
     internal class Program
     {
         static void Main(string[] args)
-        {
-            Dinosaur dinoOne = new Dinosaur();
-            Robot roboOne = new Robot();
-            Weapon weapOne = new Weapon();
-            
+        {   
+            Battlefield battle = new Battlefield();
+            battle.RunGame();
         }
 
     }

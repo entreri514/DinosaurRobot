@@ -8,18 +8,14 @@ namespace DinosaurRobot
 {
     internal class Robot
     {
-        public string RobotName;
-        public int RobotHealth;
-
-        public Robot()
+        public int roboHealth;
+        public Weapon activeWeapon;
+        public string robotName;
+        public Robot(string roboName)
         {
-            string givenName;
-            Console.WriteLine("Please enter the name of the robot: ");
-            givenName=Console.ReadLine();
-            RobotName = givenName;
-            RobotHealth = 100;
-            
-            
+            roboHealth = 100;
+            robotName = roboName;
+            activeWeapon = new Weapon();
         }
     }       
 }

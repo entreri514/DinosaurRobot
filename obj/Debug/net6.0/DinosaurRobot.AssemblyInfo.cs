@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DinosaurRobot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f5fbae76ef23bc393cc9eb50cf3a3169433ba2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DinosaurRobot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DinosaurRobot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
